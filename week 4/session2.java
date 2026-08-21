@@ -50,3 +50,6 @@ public class Main {
         sc.close();
     }
 }
+output
+    Pair found: 1 + 9
+    
