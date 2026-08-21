@@ -51,3 +51,18 @@ public class Main {
         sc.close();
     }
 }
+output
+    ===== CONSTRAINT-DRIVEN SOLUTION DESIGN =====
+Enter age: 20
+Enter marks: 75
+Enter attendance percentage: 85
+Enter number of pending subjects: 0
+
+----- Constraint Checking -----
+Age >= 18              : true
+Marks >= 50            : true
+Attendance >= 75%      : true
+No pending subjects    : true
+
+Solution: ELIGIBLE
+All constraints are satisfied.
