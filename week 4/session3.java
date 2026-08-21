@@ -38,3 +38,5 @@ public class Main {
         sc.close();
     }
 }
+output
+    Duplicate element found: 20
