@@ -25,3 +25,5 @@ public class MaximumSubarray {
         System.out.println(maxSubArrayBrute(arr));
     }
 }
+output
+    6
