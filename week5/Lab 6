@@ -1,0 +1,40 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Rider name: ");
+        String rider = sc.nextLine();
+
+        System.out.print("Pickup: ");
+        String pickup = sc.nextLine();
+
+        System.out.print("Destination: ");
+        String destination = sc.nextLine();
+
+        System.out.print("Distance: ");
+        double km = sc.nextDouble();
+
+        double fare = 50 + km * 15;
+
+        System.out.println("\n--- Ride Details ---");
+        System.out.println("Rider: " + rider);
+        System.out.println("From: " + pickup);
+        System.out.println("To: " + destination);
+        System.out.println("Fare: Rs." + fare);
+    }
+}
+output
+Rider name: kodi
+Pickup: giddalur
+Destination: gunreddypalli
+Distance: 10
+
+--- Ride Details ---
+Rider: kodi
+From: giddalur
+To: gunreddypalli
+Fare: Rs.200.0
+
+=== Code Execution Successful ===
